@@ -16,7 +16,7 @@ function Main() {
       <div className={styles.section}>
         <Perfil
           fotoPerfil={fotoPerfil}
-          name={"name"}
+          name={"Deivid Enrique Mamani Trujillo"}
           cargo={"junio-basic"}
         />
       </div>
