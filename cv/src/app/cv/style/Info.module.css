@@ -1,0 +1,6 @@
+.info_container {
+    width: 634px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

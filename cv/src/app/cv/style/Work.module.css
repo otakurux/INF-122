@@ -1,0 +1,28 @@
+.work {
+    width: 756px;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clear-grey);
+    background-color: var(--backgraud-section);
+    border-radius: 20px;
+    margin: 44px 0 36px 0;
+}
+
+.work_container {
+    width: 350px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text2 {
+    width: 349.595px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: var(--backgraud-pag);
+}

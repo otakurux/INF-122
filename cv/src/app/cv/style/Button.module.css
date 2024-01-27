@@ -1,0 +1,17 @@
+.button {
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.button_contaiter {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,52 @@
+.perfil_container {
+    background-color: var(--backgraud-pag);
+    font-family: "Poppins";
+    margin: 0;
+    color: var(--white);
+    display: flex;
+    width: 631px;
+}
+
+.perfil_info {
+    width: 372px;
+    height: 156;
+    margin: 30px 0 30px 50px;
+}
+
+.perfil_info img {
+    margin-right: 25px;
+}
+
+.foto_perfil {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 5px solid var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.foto_perfil img {
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.redes_sociales {
+    display: flex;
+    margin: 0;
+}
+
+.title{
+    font-size: var(--lg);
+    display: flex;
+}
+
+.subtitle {
+    color: var(--clear-grey);
+    font-size: var(--md);
+}

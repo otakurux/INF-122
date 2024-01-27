@@ -1,0 +1,21 @@
+.title {
+    color: var(--white);
+    font-size: var(--lg);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card_container {
+    width: 125px;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 28px;
+    color: var(--clear-grey);
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
