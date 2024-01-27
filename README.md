@@ -1,3 +1,4 @@
-# prueba
+# CV
+
 nombre: Deivid Enrique Mamani Trujillo
 materia: INF - 122
