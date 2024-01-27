@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .button_contaiter {
     display: flex;
     justify-content: center;

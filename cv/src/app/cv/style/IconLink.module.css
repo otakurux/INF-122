@@ -9,8 +9,11 @@
     border-radius: 5px;
 }
 
+/*     color: var(--clear-grey);
+ */
+
 .link {
     text-decoration: none;
-    color: var(--clear-grey);
+    color: var(--fourth);
     font-size: var(--md);
 }

@@ -8,25 +8,27 @@ import Icon2 from "../images/icon2.svg"
 import Icon3 from "../images/icon3.svg"
 import Icon4 from "../images/icon4.svg"
 
+import IconLink from "./IconLink";
+
 const Perfil = ({fotoPerfil, name, cargo}) => {
     const generateIconLinks = () => {
         const icons = [
-            { src: Icon1, href: "https://github.com/", target: "_blank", className: "icon" },
-            { src: Icon2, href: "https://github.com/", target: "_blank", className: "icon" },
-            { src: Icon3, href: "https://github.com/", target: "_blank", className: "icon" },
-            { src: Icon4, href: "https://github.com/", target: "_blank", className: "icon" },
+            { src: Icon1, href: "https://github.com/otakurux", target: "_blank"},
+            { src: Icon2, href: "https://github.com/otakurux", target: "_blank"},
+            { src: Icon3, href: "https://www.linkedin.com/in/deivid-enrique-mamani-trujillo-8b53012b1/", target: "_blank"},
+            { src: Icon4, href: "https://www.youtube.com/", target: "_blank"},
         ];
 
         return icons.map((icon, index) => (
-            <Image
+            <IconLink
                 key={index}
                 src={icon.src}
                 href={icon.href}
                 target={icon.target}
-                className={icon.className}
             />
         ));
     };
+
     return (
         <div class={styles.perfil_container}>
             <div class={styles.foto_perfil}>

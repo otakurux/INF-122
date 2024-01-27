@@ -1,19 +1,25 @@
 :root {
   --white: #FFFFFF;
   --black: #000000;
-  --yellow: #FFE071;
+  --yellow: #800015;
   --gray: #2BBE34;
   --gray-blue: #0D1423;
 
   --light-purple: #EFE9F9;
-  --red-heart: #A50954;
+  --secubdario: #5a001a;
+  --thir: #802200;
+  --fourth: #ff00e6;
+  --fifth: #a33e99;
+
+  
   --blue-heart: #ACD9B2;
 
   --backgraud-div: #0C151D;
   --backgraud-section: #171F26;
-  --backgraud-pag: #0C151D;
+  --backgraud-pag: #5a001a;
   --clear-grey: #A3ABB2;
 
+  --bp: #0C151D;
   --sm: 14px;
   --md: 22px;
   --lg: 46px;
@@ -133,12 +139,17 @@ a {
 
 #button_one {
   font-size: var(--md);
+  color: var(--fifth);
   background-color: var(--yellow);
   margin-right: 50px;
 }
 
 #button_two {
   font-size: var(--md);
-  color: var(--clear-grey);
-  background-color: var(--backgraud-section);
+  color: var(--fifth);
+  background-color: var(--thir);
+}
+
+html {
+  background-color: var(--backgraud-pag);
 }

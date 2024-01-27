@@ -2,7 +2,7 @@
     background-color: var(--backgraud-pag);
     font-family: "Poppins";
     margin: 0;
-    color: var(--white);
+    color: var(--fourth);
     display: flex;
     width: 631px;
 }
@@ -41,12 +41,16 @@
     margin: 0;
 }
 
+.redes_sociales img:hover{
+    cursor: pointer;
+}
+
 .title{
     font-size: var(--lg);
     display: flex;
 }
 
 .subtitle {
-    color: var(--clear-grey);
+    color: var(--fifth);
     font-size: var(--md);
 }
