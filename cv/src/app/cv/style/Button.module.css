@@ -19,3 +19,16 @@
     margin: 0;
     padding: 0;
 }
+
+#button_one {
+    font-size: var(--md);
+    color: var(--fifth);
+    background-color: var(--yellow);
+    margin-right: 50px;
+  }
+  
+#button_two {
+    font-size: var(--md);
+    color: var(--fifth);
+    background-color: var(--thir);
+}

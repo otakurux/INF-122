@@ -3,6 +3,9 @@ import IconLink from "./IconLink";
 import styles from "../style/Work.module.css";
 
 const Work = () => {
+    const works = [
+        {span: "", href: "",}
+    ]
     return (
         <div class={styles.work}>
             <div class={styles.work_container} id={styles.text2}>

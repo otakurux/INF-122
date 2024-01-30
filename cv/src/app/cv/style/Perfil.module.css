@@ -7,6 +7,12 @@
     width: 631px;
 }
 
+.foto_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .perfil_info {
     width: 372px;
     height: 156;

@@ -1,3 +1,4 @@
+
 import React from "react";
 
 import styles from "../style/Perfil.module.css";
@@ -10,15 +11,15 @@ import Icon4 from "../images/icon4.svg"
 
 import IconLink from "./IconLink";
 
-const Perfil = ({fotoPerfil, name, cargo}) => {
-    const generateIconLinks = () => {
-        const icons = [
-            { src: Icon1, href: "https://github.com/otakurux", target: "_blank"},
-            { src: Icon2, href: "https://github.com/otakurux", target: "_blank"},
-            { src: Icon3, href: "https://www.linkedin.com/in/deivid-enrique-mamani-trujillo-8b53012b1/", target: "_blank"},
-            { src: Icon4, href: "https://www.youtube.com/", target: "_blank"},
-        ];
+const Perfil = ({ fotoPerfil, name, cargo }) => {
+    const icons = [
+        { src: Icon1, href: "https://github.com/otakurux", target: "_blank" },
+        { src: Icon2, href: "https://github.com/otakurux", target: "_blank" },
+        { src: Icon3, href: "https://www.linkedin.com/in/deivid-enrique-mamani-trujillo-8b53012b1/", target: "_blank" },
+        { src: Icon4, href: "https://www.youtube.com/", target: "_blank" },
+    ];
 
+    const generateIconLinks = () => {
         return icons.map((icon, index) => (
             <IconLink
                 key={index}
@@ -31,8 +32,10 @@ const Perfil = ({fotoPerfil, name, cargo}) => {
 
     return (
         <div class={styles.perfil_container}>
-            <div class={styles.foto_perfil}>
-                <Image src={fotoPerfil} />
+            <div className={styles.foto_Container}>
+                <div class={styles.foto_perfil}>
+                    <Image src={fotoPerfil} />
+                </div>
             </div>
             <div class={styles.perfil_info}>
                 <h1 class={styles.title}>{name}</h1>

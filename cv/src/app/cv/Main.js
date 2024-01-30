@@ -11,6 +11,16 @@ import fotoPerfil from "./images/perfil_picture.jpeg";
 
 
 function Main() {
+
+
+
+        // const icons = [
+        //     "https://github.com/otakurux",
+        //     "https://github.com/otakurux",
+        //     "https://www.linkedin.com/in/deivid-enrique-mamani-trujillo-8b53012b1/",
+        //     "https://www.youtube.com/",
+        // ];
+
   return (
     <div className="App">
       <div className={styles.section}>
@@ -18,6 +28,7 @@ function Main() {
           fotoPerfil={fotoPerfil}
           name={"Deivid Enrique Mamani Trujillo"}
           cargo={"junio-basic"}
+          // icons={icons}
         />
       </div>
       <div className={styles.section}>

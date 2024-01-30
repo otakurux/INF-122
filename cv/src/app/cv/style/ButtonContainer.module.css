@@ -18,3 +18,16 @@
     justify-content: center;
     align-items: center;
 }
+
+/* .buttons button {
+    font-size: var(--md);
+    color: var(--fifth);
+    background-color: var(--yellow);
+    margin-right: 50px;
+}
+
+.buttons #button_two {
+    font-size: var(--md);
+    color: var(--fifth);
+    background-color: var(--thir);
+} */

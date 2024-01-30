@@ -137,7 +137,7 @@ a {
 
 
 
-#button_one {
+/* #button_one {
   font-size: var(--md);
   color: var(--fifth);
   background-color: var(--yellow);
@@ -148,7 +148,7 @@ a {
   font-size: var(--md);
   color: var(--fifth);
   background-color: var(--thir);
-}
+} */
 
 html {
   background-color: var(--backgraud-pag);
