@@ -4,22 +4,14 @@ import React from "react";
 import styles from "../style/Perfil.module.css";
 import Image from "next/image";
 
-import Icon1 from "../images/icon1.svg"
-import Icon2 from "../images/icon2.svg"
-import Icon3 from "../images/icon3.svg"
-import Icon4 from "../images/icon4.svg"
-
 import IconLink from "./IconLink";
 
-const Perfil = ({ fotoPerfil, name, cargo }) => {
-    const icons = [
-        { src: Icon1, href: "https://github.com/otakurux", target: "_blank" },
-        { src: Icon2, href: "https://github.com/otakurux", target: "_blank" },
-        { src: Icon3, href: "https://www.linkedin.com/in/deivid-enrique-mamani-trujillo-8b53012b1/", target: "_blank" },
-        { src: Icon4, href: "https://www.youtube.com/", target: "_blank" },
-    ];
-
+const Perfil = ({ fotoPerfil, name, cargo, icons }) => {
     const generateIconLinks = () => {
+        if (icons === undefined || icons === null) {
+            console.log("icons es undefined o null");
+            return;
+        }
         return icons.map((icon, index) => (
             <IconLink
                 key={index}

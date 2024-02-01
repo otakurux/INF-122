@@ -29,7 +29,7 @@
     padding: 5px;
     border-radius: 50%;
     background-color: var(--white);
-    border: 5px solid var(--yellow);
+    border: 5px solid var(--primary);
     display: flex;
     align-items: center;
     justify-content: center

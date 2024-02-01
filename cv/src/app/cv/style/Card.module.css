@@ -1,6 +1,5 @@
 .title {
     color: var(--fifth);
-    /* color: var(--white); */
     font-size: var(--lg);
     text-align: center;
     margin: 10px 0;
@@ -13,7 +12,6 @@
     flex-direction: column;
     margin: 16px 28px;
     color: var(--fifth);
-    /* color: var(--clear-grey); */
     justify-content: center;
     align-items: center;
 }

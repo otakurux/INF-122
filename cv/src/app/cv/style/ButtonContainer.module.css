@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--);
     border-radius: 20px;
     margin: 0px 0 36px 0;
 }
@@ -19,15 +18,9 @@
     align-items: center;
 }
 
-/* .buttons button {
+.buttons button {
     font-size: var(--md);
     color: var(--fifth);
-    background-color: var(--yellow);
+    background-color: var(--primary);
     margin-right: 50px;
 }
-
-.buttons #button_two {
-    font-size: var(--md);
-    color: var(--fifth);
-    background-color: var(--thir);
-} */
