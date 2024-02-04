@@ -1,4 +1,4 @@
-.perfil_container {
+.profileContainer {
     background-color: var(--backgraud-pag);
     font-family: "Poppins";
     margin: 0;
@@ -7,23 +7,23 @@
     width: 631px;
 }
 
-.foto_Container {
+.photoContainer {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.perfil_info {
+.profileInfo {
     width: 372px;
     height: 156;
     margin: 30px 0 30px 50px;
 }
 
-.perfil_info img {
+.profileInfo img {
     margin-right: 25px;
 }
 
-.foto_perfil {
+.photoProfile {
     width: 200px;
     height: 200px;
     padding: 5px;
@@ -35,19 +35,19 @@
     justify-content: center
 }
 
-.foto_perfil img {
+.photoProfile img {
     width: 192px;
     height: 192px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.redes_sociales {
+.socialNetworks {
     display: flex;
     margin: 0;
 }
 
-.redes_sociales img:hover{
+.socialNetworks img:hover{
     cursor: pointer;
 }
 

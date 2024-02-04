@@ -9,7 +9,7 @@
     cursor: pointer;
 }
 
-.button_contaiter {
+.buttonContainer {
     display: flex;
     justify-content: center;
     
@@ -20,15 +20,15 @@
     padding: 0;
 }
 
-.button_one {
+.buttonOne {
     font-size: var(--md);
     color: var(--fifth);
     background-color: var(--primary);
     margin-right: 50px;
   }
   
-.button_two {
+.buttonTwo {
     font-size: var(--md);
     color: var(--fifth);
-    background-color: var(--thir);
+    background-color: var(--third);
 }

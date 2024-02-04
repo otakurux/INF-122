@@ -1,14 +1,8 @@
 
-import React from "react";
 import Card from "./Card";
 import styles from "../style/Info.module.css";
 
-const Info = () => {
-  const cards = [
-    { title: "1", text: "hours of work experience" },
-    { title: "1+", text: "Completed projects" },
-    { title: "1+", text: "Satisfied customers" },
-  ];
+const Info = ({ cards }) => {
 
   const generateCard = () => {
     return cards.map((card, index) => (

@@ -3,5 +3,8 @@
     "editor.linkedEditing": true,
     "editor.guides.bracketPairs": true,
     "breadcrumbs.enabled": false,
-    "editor.stickyScroll.enabled": true
+    "editor.stickyScroll.enabled": true,
+    "cSpell.words": [
+        "issima"
+    ]
 }

@@ -1,12 +1,12 @@
 
 import React from "react";
 
-import styles from "../style/Perfil.module.css";
+import styles from "../style/Profile.module.css";
 import Image from "next/image";
 
 import IconLink from "./IconLink";
 
-const Perfil = ({ fotoPerfil, name, cargo, icons }) => {
+const Profile = ({ photoProfile, name, cargo, icons }) => {
     const generateIconLinks = () => {
         if (icons === undefined || icons === null) {
             console.log("icons es undefined o null");
@@ -23,16 +23,16 @@ const Perfil = ({ fotoPerfil, name, cargo, icons }) => {
     };
 
     return (
-        <div class={styles.perfil_container}>
-            <div className={styles.foto_Container}>
-                <div class={styles.foto_perfil}>
-                    <Image src={fotoPerfil} />
+        <div class={styles.profileContainer}>
+            <div className={styles.photoContainer}>
+                <div class={styles.photoProfile}>
+                    <Image src={photoProfile} />
                 </div>
             </div>
-            <div class={styles.perfil_info}>
+            <div class={styles.profileInfo}>
                 <h1 class={styles.title}>{name}</h1>
                 <p class={styles.subtitle}>{cargo}</p>
-                <div class={styles.redes_sociales}>
+                <div class={styles.socialNetworks}>
                     {generateIconLinks()}
                 </div>
             </div>
@@ -40,4 +40,4 @@ const Perfil = ({ fotoPerfil, name, cargo, icons }) => {
     )
 }
 
-export default Perfil;
+export default Profile;

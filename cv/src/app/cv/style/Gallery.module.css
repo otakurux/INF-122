@@ -1,9 +1,9 @@
-.imagenes_container {
+.imagesContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.imagenes_container img {
+.imagesContainer img {
     width: 362px;
     height: 226px;
     margin: 0 26px 52px;

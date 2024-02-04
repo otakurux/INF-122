@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "../style/IconLink.module.css";
 import Image from "next/image";
 

@@ -1,4 +1,4 @@
-.buttons_primari {
+.buttonsContainer {
     width: 756px;
     height: 116px;
     display: flex;
@@ -20,7 +20,10 @@
 
 .buttons button {
     font-size: var(--md);
-    color: var(--fifth);
-    background-color: var(--primary);
+    color: var(--fourth);
+    background-color: var(--third);
     margin-right: 50px;
+}
+.buttonPrimary button {
+    background-color: var(--primary);
 }

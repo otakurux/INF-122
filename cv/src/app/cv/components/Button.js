@@ -6,7 +6,7 @@ import styles from "../style/Button.module.css"
 const Button = ({ onclick, span, src }) => {
     return (
         <button className={styles.button} onClick={onclick} >
-            <div className={styles.button_container}>
+            <div className={styles.buttonContainer}>
                 <p className={styles.text}>{span} <Image src={src} /></p>
             </div>
         </button>
