@@ -12,14 +12,42 @@
 .workContainer {
     width: 350px;
     height: 80px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #text2 {
-    width: 349.595px;
-    height: 80px;
-    border-radius: 20px;
     background-color: var(--secondary);
+}
+
+
+/* Media query para dispositive mobiles */
+@media only screen and (max-width: 375px) {
+    .work {
+        width: 340px;
+        height: 60px;
+    }
+
+    .workContainer {
+        width: 160px;
+        height: 40px;
+        border-radius: 15px;
+    }
+}
+
+
+/* Media query para dispositive tablet */
+@media only screen and (max-width: 768px) {
+    .work {
+        width: 700px;
+        height: 100px;
+    }
+
+    .workContainer {
+        width: 300px;
+        height: 80px;
+        border-radius: 15px;
+    }
 }

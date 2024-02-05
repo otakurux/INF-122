@@ -20,10 +20,49 @@
 
 .buttons button {
     font-size: var(--md);
-    color: var(--fourth);
+    color: var(--fifth);
     background-color: var(--third);
     margin-right: 50px;
 }
+
 .buttonPrimary button {
     background-color: var(--primary);
+    color: var(--fourth);
+}
+
+/* Media query para dispositive mobiles */
+@media only screen and (max-width: 375px) {
+    .buttonsContainer {
+        width: 360px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .buttons button {
+        width: 170px;
+        height: 50px;
+        margin: 0;
+    }
+
+    .buttonPrimary button img {
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+    }
+}
+
+
+/* Media query para dispositive tablet */
+@media only screen and (max-width: 768px) {
+    .buttonsContainer {
+        width: 700px;
+        height: 90px;
+        margin: 0;
+    }
+
+    .buttons button {
+        width: 300px;
+        height: 70px;
+        margin: 10px;
+    }
 }

@@ -1,11 +1,26 @@
-.App {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--backgroundPag);
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Media query para dispositive mobiles */
+@media only screen and (max-width: 375px) {
   .section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 365px;
   }
-  
-  
+}
+
+/* Media query para dispositive tablet */
+@media only screen and (max-width: 768px) {
+  .section {
+    width: 758px;
+  }
+}

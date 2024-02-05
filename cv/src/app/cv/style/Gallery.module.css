@@ -10,3 +10,24 @@
     border-radius: 15px;
     background-color: var(--black);
 }
+
+
+/* Media query para dispositive mobiles */
+@media only screen and (max-width: 375px) {
+    .imagesContainer img {
+        width: 150px;
+        height: 110px;
+        margin: 0 13px 25px;
+        border-radius: 8px;
+    }
+}
+
+
+/* Media query para dispositive tablet */
+@media only screen and (max-width: 768px) {
+    .imagesContainer img {
+        width: 300px;
+        height: 200px;
+        border-radius: 15px;
+    }
+}

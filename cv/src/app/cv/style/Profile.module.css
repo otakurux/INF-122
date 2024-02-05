@@ -1,5 +1,4 @@
 .profileContainer {
-    background-color: var(--backgraud-pag);
     font-family: "Poppins";
     margin: 0;
     color: var(--fourth);
@@ -47,16 +46,69 @@
     margin: 0;
 }
 
-.socialNetworks img:hover{
+.socialNetworks img:hover {
     cursor: pointer;
 }
 
-.title{
-    font-size: var(--lg);
-    display: flex;
+.title {
+    text-align: center;
+    color: var(--white);
 }
 
 .subtitle {
     color: var(--fifth);
     font-size: var(--md);
+}
+
+/* Media query para dispositive mobiles */
+@media only screen and (max-width: 375px) {
+    .profileContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .profileInfo {
+        width: 360px;
+        margin: 0;
+    }
+
+    .profileInfo img {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photoContainer {
+        width: 360px;
+    }
+    .photoProfile {
+        width: 158px;
+        height: 158px;
+    }
+
+    .photoProfile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .socialNetworks {
+        justify-content: center;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+}
+
+
+/* Media query para dispositive tablet */
+@media only screen and (max-width: 768px) {
+    .profileInfo {
+        width: 700px;
+    }
+
+    .photoContainer {
+        width: 700px;
+    }
 }

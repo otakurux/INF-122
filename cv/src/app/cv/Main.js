@@ -53,7 +53,7 @@ const images = [
 
 function Main() {
   return (
-    <div className="App">
+    <div className={styles.app}>
       <div className={styles.section}>
         <Profile
           photoProfile={photoProfile}

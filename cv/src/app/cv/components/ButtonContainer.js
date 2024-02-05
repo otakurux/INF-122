@@ -11,7 +11,7 @@ const Button_Container = () => {
                 <div className={styles.buttonPrimary}>
                     <Button src={Download} span={"Download CV"} />
                 </div>
-                <div>
+                <div className={styles.buttonSecondary}>
                     <Button span={"Contact me"} />
                 </div>
             </div>

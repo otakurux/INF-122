@@ -6,16 +6,18 @@ const Info = ({ cards }) => {
 
   const generateCard = () => {
     return cards.map((card, index) => (
-      <Card
-        key={index}
-        title={card.title}
-        text={card.text}
-      />
+      <div className={styles.cardContainer}>
+        <Card
+          key={index}
+          title={card.title}
+          text={card.text}
+        />
+      </div>
     ));
   };
 
   return (
-    <div className={styles.info_container}> {/* Fix: Use className */}
+    <div className={styles.infoContainer}> {/* Fix: Use className */}
       {generateCard()}
     </div>
   );

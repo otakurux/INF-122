@@ -1,6 +1,30 @@
-.info_container {
+.infoContainer {
     width: 634px;
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media query para dispositive mobiles */
+@media only screen and (max-width: 375px) {
+    .infoContainer {
+        width: 360px;
+        padding-top: 20px 0;
+        font-size: var(--sm);
+    }
+}
+
+
+/* Media query para dispositive tablet */
+@media only screen and (max-width: 768px) {
+    .infoContainer {
+        width: 700px;
+        padding-top: 20px 0;
+    }
 }
