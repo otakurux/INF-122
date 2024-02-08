@@ -14,7 +14,7 @@
 
 .profileInfo {
     width: 372px;
-    height: 156;
+    height: 156px;
     margin: 30px 0 30px 50px;
 }
 
@@ -61,54 +61,59 @@
 }
 
 /* Media query para dispositive mobiles */
-@media only screen and (max-width: 375px) {
-    .profileContainer {
+@media (max-width: 375px) {
+    /* .profileContainer {
+        width: 250px;
         display: grid;
         grid-template-columns: 1fr;
+    }
+    
+    .photoContainer {
+        width: 250px;
+
     }
 
     .profileInfo {
-        width: 360px;
+        width: 250px;
         margin: 0;
     }
 
+    .profileInfo {
+        width: 250px;
+        height: 156px;
+    }
+    
     .profileInfo img {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        align-items: center;
+        margin-right: 25px;
     }
-
-    .photoContainer {
-        width: 360px;
-    }
+    
     .photoProfile {
-        width: 158px;
-        height: 158px;
-    }
-
-    .photoProfile img {
         width: 150px;
         height: 150px;
     }
-
-    .socialNetworks {
-        justify-content: center;
+    
+    .photoProfile img {
+        width: 145px;
+        height: 145px;
     }
-
-    .subtitle {
+    
+    .title {
         text-align: center;
     }
+    
+    .subtitle {
+        text-align: center;
+    } */
 }
 
 
 /* Media query para dispositive tablet */
 @media only screen and (max-width: 768px) {
-    .profileInfo {
-        width: 700px;
+    /* .profileInfo {
+        width: 750px;
     }
 
     .photoContainer {
-        width: 700px;
-    }
+        width: 750px;
+    } */
 }

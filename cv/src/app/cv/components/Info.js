@@ -5,10 +5,10 @@ import styles from "../style/Info.module.css";
 const Info = ({ cards }) => {
 
   const generateCard = () => {
-    return cards.map((card, index) => (
-      <div className={styles.cardContainer}>
+    return cards.map((card) => (
+      <div key={card.key} className={styles.cardContainer}>
         <Card
-          key={index}
+          key={card.key}
           title={card.title}
           text={card.text}
         />

@@ -14,13 +14,13 @@
 /* Media query para dispositive mobiles */
 @media only screen and (max-width: 375px) {
   .section {
-    width: 365px;
+    width: 350px;
   }
 }
 
 /* Media query para dispositive tablet */
 @media only screen and (max-width: 768px) {
   .section {
-    width: 758px;
+    width: 750px;
   }
 }

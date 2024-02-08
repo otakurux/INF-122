@@ -5,9 +5,9 @@ import styles from "../style/Gallery.module.css";
 
 const Gallery = ({ images }) => {
   const generateIconLink = () => {
-    return images.map((image, index) => (
+    return images.map((image) => (
       <IconLink
-        key={index}
+        key={image.key}
         src={image.image}
         href={image.href}
         target={image.target}

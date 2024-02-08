@@ -12,9 +12,9 @@ const Profile = ({ photoProfile, name, cargo, icons }) => {
             console.log("icons es undefined o null");
             return;
         }
-        return icons.map((icon, index) => (
+        return icons.map((icon) => (
             <IconLink
-                key={index}
+                key={icon.key}
                 src={icon.src}
                 href={icon.href}
                 target={icon.target}

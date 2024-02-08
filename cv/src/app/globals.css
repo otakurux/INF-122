@@ -27,12 +27,11 @@
 
 
 /* Media query para dispositive mobiles */
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   :root {
   --sm: 10px;
   --md: 16px;
   --lg: 40px;
-
   }
 }
 
