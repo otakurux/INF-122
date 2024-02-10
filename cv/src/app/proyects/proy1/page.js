@@ -1,10 +1,14 @@
+"use client"
 
-"use clien"
+import Pikachu from "./components/pikachu";
+import styles from "./page.module.css";
 
-const Page = () => {
+const page = () => {
     return (
-        <div className="main">
-            <h1>proy one</h1>
+        <div className={styles.main}>
+            <Pikachu />
         </div>
     )
 }
+
+export default page;

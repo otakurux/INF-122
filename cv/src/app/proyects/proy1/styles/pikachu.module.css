@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 20px;
+}
+
+.subTitle {
+    margin: 0;
+    font-size: var(--md);
+}
+
+.title {
+    text-transform: capitalize;
+    margin: 20px 0;
+    color: var(--blue);
+    font-size: var(--mg);
+}
+
+.containerPrimary {
+    width: auto;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoContainer {
+    width: auto;
+    border-radius: 40px 40px 0px 0px;
+    margin: 20px;
+}
+
+.text {
+    color: var(--black-white);
+    text-transform: capitalize;
+    width: 100px;
+    height: 20px;
+    margin: 5px 10px;
+    font-size: var(--mss);
+}
+
+.textTitle {
+    text-transform: capitalize;
+    font-size: var(--ms);
+    
+}
+
+.containerText {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.division {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
