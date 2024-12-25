@@ -1,4 +1,3 @@
-
 import React from "react";
 import IconLink from "./IconLink";
 import styles from "../style/Gallery.module.css";

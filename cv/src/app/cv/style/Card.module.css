@@ -20,7 +20,6 @@
     text-align: center;
 }
 
-/* Media query para dispositive mobiles */
 @media only screen and (max-width: 375px) {
     .cardContainer {
         width: 90px;
@@ -29,7 +28,6 @@
     }
 }
 
-/* Media query para dispositive tablet */
 @media only screen and (max-width: 768px) {
     .cardContainer {
         width: 110px;

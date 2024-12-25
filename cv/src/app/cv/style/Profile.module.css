@@ -60,60 +60,19 @@
     font-size: var(--md);
 }
 
-/* Media query para dispositive mobiles */
 @media (max-width: 375px) {
-    /* .profileContainer {
-        width: 250px;
-        display: grid;
-        grid-template-columns: 1fr;
+    .profileContainer {
+        margin-top: 25px;
     }
-    
-    .photoContainer {
-        width: 250px;
-
-    }
-
-    .profileInfo {
-        width: 250px;
-        margin: 0;
-    }
-
-    .profileInfo {
-        width: 250px;
-        height: 156px;
-    }
-    
-    .profileInfo img {
-        margin-right: 25px;
-    }
-    
-    .photoProfile {
-        width: 150px;
-        height: 150px;
-    }
-    
-    .photoProfile img {
-        width: 145px;
-        height: 145px;
-    }
-    
-    .title {
-        text-align: center;
-    }
-    
-    .subtitle {
-        text-align: center;
-    } */
 }
 
 
-/* Media query para dispositive tablet */
 @media only screen and (max-width: 768px) {
-    /* .profileInfo {
+    .profileInfo {
         width: 750px;
     }
 
     .photoContainer {
         width: 750px;
-    } */
+    }
 }

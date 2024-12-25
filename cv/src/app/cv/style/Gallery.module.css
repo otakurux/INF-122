@@ -11,11 +11,6 @@
     background-color: var(--black);
 }
 
-/* .imagesContainer img:hover {
-    
-} */
-
-/* Media query para dispositive mobiles */
 @media only screen and (max-width: 375px) {
     .imagesContainer img {
         width: 150px;
@@ -25,8 +20,6 @@
     }
 }
 
-
-/* Media query para dispositive tablet */
 @media only screen and (max-width: 768px) {
     .imagesContainer img {
         width: 300px;

@@ -1,3 +1,4 @@
+
 "use client"
 
 import Pikachu from "./components/pikachu";

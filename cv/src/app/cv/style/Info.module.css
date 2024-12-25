@@ -11,7 +11,6 @@
     justify-content: center;
 }
 
-/* Media query para dispositive mobiles */
 @media only screen and (max-width: 375px) {
     .infoContainer {
         width: 360px;
@@ -21,7 +20,6 @@
 }
 
 
-/* Media query para dispositive tablet */
 @media only screen and (max-width: 768px) {
     .infoContainer {
         width: 700px;

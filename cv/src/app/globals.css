@@ -1,9 +1,11 @@
 :root {
   --white: #FFFFFF;
   --black: #000000;
+  --white: #DCDCE5;
+  --orange: #FF872C;
   --yellow: #800015;
   --gray: #2BBE34;
-  --gray-blue: #0D1423;
+  --gray-blue: hsl(221, 46%, 9%);
 
   --light-purple: #EFE9F9;
 
@@ -25,8 +27,6 @@
   --lg: 46px;
 }
 
-
-/* Media query para dispositive mobiles */
 @media (max-width: 600px) {
   :root {
   --sm: 10px;
@@ -34,8 +34,6 @@
   --lg: 40px;
   }
 }
-
-
 
 body {
   background-color: var(--backgroundPag);

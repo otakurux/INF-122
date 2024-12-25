@@ -1,0 +1,12 @@
+.accountant {
+    width: 100px;
+    height: 100px;
+    font-size: var(--mg);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    color: var(--orange);
+    align-items: center;
+    margin-bottom: 10px;
+}

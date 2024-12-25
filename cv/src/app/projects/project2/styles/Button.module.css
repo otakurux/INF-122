@@ -1,0 +1,32 @@
+
+.buttonClick {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: var(--md);
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.buttonReboot {
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: var(--md);
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.buttonClick:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.buttonReboot:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}

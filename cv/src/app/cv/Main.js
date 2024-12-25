@@ -1,7 +1,6 @@
 
 import React from 'react';
 import styles from "./Main.module.css";
-import page1 from '../proyects/proy1/page';
 
 // components
 import Profile from './components/Profile';
@@ -11,7 +10,7 @@ import Work from './components/Work';
 import Galleria from './components/Gallery';
 
 // profile
-import photoProfile from "./images/perfil_picture.jpeg";
+import photoProfile from "./images/01cv_img.jpg";
 
 import Icon1 from "./images/icon1.svg";
 import Icon2 from "./images/icon2.svg";
@@ -46,7 +45,7 @@ import MobileApp from "./images/mobile_app.png";
 import PicturesWall from "./images/pictures_wall.jpeg";
 
 const images = [
-  { key: 1, image: BussinessMan, href: "../proyects/proy1", target: "_blank" },
+  { key: 1, image: BussinessMan, href: "", target: "_blank" },
   { key: 2, image: IssimaPage, href: "", target: "_blank" },
   { key: 3, image: Kitchen, href: "", target: "_blank" },
   { key: 4, image: MobileApp, href: "", target: "_blank" },
